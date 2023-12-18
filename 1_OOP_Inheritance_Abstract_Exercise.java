@@ -19,7 +19,7 @@
 3. Main: 
 Instantiate Student class
 Introduce the student,
-Celebrate the student birthday ,
+Celebrate the student birthday,
 Call passed_year(): if it's true => Congradulations! if false = Good luck for next time
 
  */
