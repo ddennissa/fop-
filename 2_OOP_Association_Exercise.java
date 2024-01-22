@@ -28,3 +28,52 @@ Override method:
 ENJOY :)
  
  */
+// Class and attributes 
+class Car {
+private int model;
+private String color;
+private int fuelLevel;
+private boolean engineRunning;
+//constructor 
+public Car (int model, String color, int fuelLevel, boolean engineRunning) {
+ this.model = model;
+ this.color = color;
+ this.fuelLevel = fuelLevel;
+ this.engineRunning = engineRunning;
+}
+//getters and setters 
+public int getModel(){
+ return this.model;
+}
+public String getColor(){
+ return this.color();
+}
+public int getFuelLevel(){
+ return this.fuelLevel;
+} 
+public boolean getEngineRunning(){
+ return this.engineRunning;
+}
+
+public void setModel(int model){
+ this.model = model;
+}
+public void setColor(String color){
+ this.color = color;
+}
+public void setFuelLevel(int fuelLevel){
+ this.fuelLevel = fuelLevel;
+}
+public void setEngineRunning(boolean engineRunning){
+ this.engineRunning = enginerunning;
+}
+//methods 
+public void startEngine(){
+ if(this.engineRunning = false && fuelLevel > 0){
+  this.engineRunning = true;
+ } else if (this.engineRunning = true) {
+  System.out.println("Engine is running!")
+ } else   
+ 
+ 
+ 
