@@ -7,7 +7,6 @@
 - display_information(): display car information
 
 
-
 2. Client Class
  Define a Client() class inherites from Person class (from Exercise 1).
 Add another attribut: a CAR!
